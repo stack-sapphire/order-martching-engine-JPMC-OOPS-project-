@@ -38,7 +38,6 @@ protected:
     double initialTotalWealth;
     // access to order management system
     std::shared_ptr<OMS> oms;
-    double initialTotalWealth = 0.0;  
 
     // random number generator for this trader
     std::mt19937 rng;
